@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Geography Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Get Started Screen -->
+    <div id="start-screen">
+        <img src="usa-map.png" alt="Map of the USA">
+        <button id="start-button">Get Started</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="hidden">
+        <div id="score-container">
+            <h2>Score: <span id="score">0</span></h2>
+        </div>
+        <h1 id="question"></h1>
+        <div id="answers"></div>
+        <div id="explanation" class="hidden"></div>
+    </div>
+
+    <!-- Completion Screen -->
+    <div id="completion-screen" class="hidden">
+        <img src="gold-medal.png" alt="Gold Medal">
+        <h1>Congrats! You know a lot about the USA!</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
